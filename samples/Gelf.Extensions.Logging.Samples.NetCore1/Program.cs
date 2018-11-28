@@ -10,6 +10,7 @@ namespace Gelf.Extensions.Logging.Samples.NetCore1
     {
         public static void Main()
         {
+            //commit 1
             var configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
                 .Build();
